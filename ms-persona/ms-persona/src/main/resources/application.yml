@@ -1,8 +1,8 @@
 spring:
   application:
-    name: ms-persona
+    name: ms_persona
   profiles:
     active: development
   config:
-    import: optional:configserver:http://root:123456@localhost:7070
+    import: configserver:http://root:123456@localhost:7070
 

@@ -1,13 +1,13 @@
 package com.example.ms_persona;
-//
-//import org.junit.jupiter.api.Test;
-//import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
-//class MsPersonaApplicationTests {
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-//	@Test
-//	void contextLoads() {
-//	}
+@SpringBootTest
+class MsPersonaApplicationTests {
 
-//}
+	@Test
+	void contextLoads() {
+	}
+
+}
