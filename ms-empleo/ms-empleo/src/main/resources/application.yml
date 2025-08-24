@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms_empleo
+    name: ms-empleo
   profiles:
     active: development
   config:

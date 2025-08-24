@@ -13,14 +13,14 @@
 	</parent>
 
 	<groupId>com.example</groupId>
-	<artifactId>ms-persona</artifactId>
+	<artifactId>ms-catalogo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ms-persona</name>
-	<description>Demo project for Spring Boot</description>
+	<name>ms-catalogo</name>
+	<description>Microservicio Catálogo</description>
 
 	<properties>
-		<spring-cloud.version>2022.0.2</spring-cloud.version>
 		<java.version>17</java.version>
+		<spring-cloud.version>2022.0.2</spring-cloud.version>
 	</properties>
 
 	<dependencies>
@@ -63,6 +63,18 @@
 			<version>4.0.4</version>
 		</dependency>
 	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<plugins>

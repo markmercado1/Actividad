@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms_persona
+    name: ms-persona
   profiles:
     active: development
   config:
